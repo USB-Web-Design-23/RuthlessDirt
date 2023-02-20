@@ -1,0 +1,25 @@
+body {
+	background-color: steelblue;
+}
+
+
+
+.dropdown {
+	color: darkred;
+	font-size: 20px;
+}
+
+.dropdown-content {
+	display: none;
+	background-color: seagreen;
+	color:skyblue;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+p {
+	color: darkorange;
+	font-size: 25px;
+}
