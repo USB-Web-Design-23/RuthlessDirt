@@ -1,0 +1,30 @@
+@keyframes example {
+  0%   {background-color:blue; left:0px; top:0px;}
+  8%  {background-color:yellow; left:600px; top:0px;}
+  16%  {background-color:violet; left:600px; top:400px;}
+  24%  {background-color:green; left:0px; top:400px;}
+  32% {background-color:red; left:0px; top:0px;}
+  36%   {background-color:blue; left:0px; top:0px;}
+  40%  {background-color:yellow; left:600px; top:0px;}
+  44%  {background-color:violet; left:600px; top:400px;}
+  48%  {background-color:green; left:0px; top:400px;}
+  52% {background-color:red; left:0px; top:0px;}
+  54%   {background-color:blue; left:0px; top:0px;}
+  56%  {background-color:yellow; left:600px; top:0px;}
+  58%  {background-color:violet; left:600px; top:400px;}
+  60%  {background-color:green; left:0px; top:400px;}
+  62% {background-color:red; left:0px; top:0px;}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-direction: reverse;
+  animation-iteration-count: 3;
+}
+
+
