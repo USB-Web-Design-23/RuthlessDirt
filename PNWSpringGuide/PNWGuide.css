@@ -1,0 +1,96 @@
+body {
+	background-image: url("PNW.jpeg")
+}
+
+h1 {
+	text-align: center;
+	size: 50px;
+	color: red;
+	animation-name: title;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes title {
+  0%   {color:blue; left:0px; top:0px;}
+  25%  {color:red; left:0px; top:0px;}
+  50%  {color:violet; left:0px; top:0px;}
+  75%  {color:green; left:0px; top:0px;}
+  100% {color:blue; left:0px; top:0px;}
+}
+
+.dropdown {
+	color: seagreen;
+	font-size: 40px;
+	text-align: center;
+	background-color: lightblue;
+}
+
+.dropdown-content {
+	display: none;
+	font-size: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+p {
+	color: green;
+	background-color: seashell;
+}
+
+h2 {
+	animation-name: image;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	background-size: 100%;
+}
+
+@keyframes image {
+  0%  {background-image: url("Olympic1.webp")}
+  24% {background-image: url("Olympic1.webp")}
+  25% {background-image: url("Olympic2.jpeg")}
+  49% {background-image: url("Olympic2.jpeg")}
+  50% {background-image: url("Olympic3.jpeg")}
+  74% {background-image: url("Olympic3.jpeg")}
+  75% {background-image: url("Olympic4.jpeg")}
+  99% {background-image: url("Olympic4.jpeg")}
+  100% {background-image: url("Olympic1.webp")}
+}
+
+h3 {
+	animation-name: image2;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	background-size: 100%;
+}
+
+@keyframes image2 {
+  0%  {background-image: url("Rainier1.png")}
+  24% {background-image: url("Rainier1.png")}
+  25% {background-image: url("Rainier2.jpeg")}
+  49% {background-image: url("Rainier2.jpeg")}
+  50% {background-image: url("Rainier3.jpeg")}
+  74% {background-image: url("Rainier3.jpeg")}
+  75% {background-image: url("Rainier4.jpg")}
+  99% {background-image: url("Rainier4.jpg")}
+  100% {background-image: url("Rainier1.png")}
+}
+
+h4 {
+	animation-name: image3;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	background-size: 100%;
+}
+
+@keyframes image3 {
+  0%  {background-image: url("Mariners1.jpeg")}
+  33% {background-image: url("Mariners1.jpeg")}
+  34% {background-image: url("Mariners2.jpeg")}
+  66% {background-image: url("Mariners2.jpeg")}
+  67% {background-image: url("Mariners3.jpeg")}
+  99% {background-image: url("Mariners3.jpeg")}
+  100% {background-image: url("Mariners1.jpeg")}
+ }
