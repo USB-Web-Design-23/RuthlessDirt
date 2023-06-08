@@ -1,0 +1,123 @@
+/* This class defines what the questions will look like. !*/
+
+
+.t {
+	font-family: Andale Mono;
+	font-weight: bold;
+	font-size: 30px;
+
+
+}
+
+/* This class defines what the answers to the questions will look like. !*/
+
+.b {
+	font-family: Andale Mono;
+	font-size: 20px;
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	display: inline-block;
+	padding: 12px 16px;
+
+	
+	
+}
+
+/* This class defines what the page will look like. !*/
+body {
+	text-align: center;
+	font-family: "Andale Mono"
+}
+
+/* This class defines the text that contains the popup ads. !*/
+.safeway {
+  display: inline-block;
+ 
+}
+
+/* This class actually defines what the ads will look like when popped up. !*/
+.ad-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* This class defines when the ad will pop down. !*/
+
+.safeway:hover .ad-content {display: block;}
+
+/* Defines the way the title will look. */
+
+h1{
+	font-family: 'Proxima Nova', sans-serif;
+	color: red;
+	font-weight: bold;
+	font-size: 60px;
+	animation-name: ad;
+  	animation-duration: 4s;
+  	animation-iteration-count: infinite;
+
+}
+
+/* Code below defines the pictures in the ads on the side. */
+.ad1{
+	
+  	position: absolute;
+  	top: 40.6%;
+	right: 80.6%;
+
+
+}
+
+/* Defines what happens on hover. */
+.ad1:hover{
+	content: url("https://i.pinimg.com/236x/9a/91/bd/9a91bd0c5e1de600519bd33fd33bc0fb--big-mac-mcdonalds.jpg")
+}
+
+/* See above */
+.ad2{
+	position: absolute;
+  	top: 60.6%;
+	left: 72.6%;
+	  width: 20%
+
+}
+
+/* See above */
+.ad2:hover{
+	content: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfZY6G8m-jQqUGsdUWGDSY1ysPoWIBDbBJBNUCCqazb9atQWk_ZuHreBryvM6vUQ7ooV24Zlv7WIk&usqp=CAU&ec=48665701")
+}
+
+/* See above */
+.ad3{
+	
+  	position: absolute;
+  	top: 90.6%;
+	right: 80.6%;
+}
+
+/* See above */
+.ad3:hover{
+	content: url("https://newspaperads.ads2publish.com/wp-content/uploads/2021/01/kfc-happy-new-wednesday-12-pcs-for-rupees-350-ad-bangalore-times-06-01-2021-250x417.jpg")
+}
+
+
+/* Defines the title animation. */
+@keyframes ad {
+  0%,20%,60%,100% {
+    color: red;
+  }
+  40%,80% {
+    color: black;
+
+  }
+}
+
+/* Defines what happens when you hover over our links. */
+
+a:hover{
+   color:royalblue;
+}
+

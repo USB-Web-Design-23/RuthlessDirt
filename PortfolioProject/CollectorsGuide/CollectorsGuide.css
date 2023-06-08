@@ -1,0 +1,52 @@
+/* Gives the body element lots of unique style choices while also creating a background image that doesn't repeat and covers the whole page */
+body {
+	font-size: 40px;
+	color: palegreen;
+	font-style: helvetica;
+	background-image: url(Tennis.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p {
+	font-size: 16px;
+	color: darkred;
+}
+
+/* Gives this class unique features */
+.McEnroe {
+	background-color: seagreen;
+	color: skyblue;
+	font-size: 25px;
+}
+
+/* Makes it so that this class's content has the color scheme flipped from the McEnroe class */
+.Williams {
+	background-color: skyblue;
+	color: seagreen;
+	font-size: 25px;
+}
+
+/* Gives this content unique colors while of the page */
+.Williams2 {
+	background-color: blueviolet;
+	color: palegreen;
+	font-size: 24px;
+	width: 60%;
+}
+
+/* Gives the table a little space off the edge of the page while also making the border stand out */
+table {
+	padding: 3px;
+	border: solid;
+	border-color: blueviolet;
+}
+/* Creates a solid border for the data inside the table */
+td {
+	border: solid;
+}
+
+.Links {
+	font-size: 20px;
+	color: black;
+}

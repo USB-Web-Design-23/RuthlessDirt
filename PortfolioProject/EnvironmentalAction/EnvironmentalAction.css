@@ -1,0 +1,28 @@
+body {
+	background-color: steelblue;
+}
+
+
+/* Creates different styles for the dropdown class */
+.dropdown {
+	color: darkred;
+	font-size: 20px;
+}
+
+/* Creates different styles for the dropdown-content class as well as making the text not show up at first when the webpage is opened*/
+.dropdown-content {
+	display: none;
+	background-color: seagreen;
+	color: skyblue;
+}
+
+/* When the text in the dropdown class is hovered over, the text from the dropdown-content will then show up - makes the webpage more sophisticated and user oriented. */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Makes the paragraph element stick out from the other classes */
+p {
+	color: darkorange;
+	font-size: 25px;
+}

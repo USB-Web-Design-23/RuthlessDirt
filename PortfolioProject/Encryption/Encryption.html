@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Encryption.css">
+	<title>Encryption</title>
+</head>
+<body>
+
+	<h1>Encryption</h1>
+
+	<!-- These two divs are use to be able to create a dropdown bar that is activiated when hovered over -->
+	<div class="dropdown">
+		Sections
+
+	<div class="dropdown-content">
+		<!-- These anchors are linked to different sections of the webpage -->
+		<a href="#p1"> 
+			History
+		</a>
+		<br>
+		<a href="#p2"> 
+			Vigenere Cipher
+		</a>
+		<br>
+		<a href="#p3"> 
+			SHA-256
+		</a>
+
+	</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<!-- This paragraph has an id to allow for it to be linked to the dropdown menu above -->
+	<p1 id="p1"> 
+
+		Throughout history, war has always caused meesages to need to be encrypted. Early accounts of these include the Roman Empire during Julius Caesar's reign. There is even a cipher named after him: "Caeser Cipher". It works by having every character changed by x. For example if I want to encrypt "Hello" and shift it by 4, I would get "Lipps".
+
+	</p1>
+	<br>
+	<!-- An image is embedded in the webpage to expand on the ideas above -->
+	<img width="400" height="300" src="CaeserCipher.png">
+	<!-- hr element is used to make the breaks more fancy and look better -->
+	<hr>
+	<!-- This paragraph has an id to allow for it to be linked to the dropdown menu above -->
+	<p2 id="p2">
+		The Vigenere Cipher uses a key that is a word or string of characters that can represent how much each character in the text shifts.
+		For example, if I wanted to encript "hello" while using the key word of "bye", my encrypted message would be "icpmm"
+	</p2>
+	<br>
+	<!-- An image is embedded in the webpage to expand on the ideas above -->
+	<img width="400" height="300" src="VigenereCipher.png">
+
+	<!-- hr element is used to make the breaks more fancy and look better -->
+	<hr>
+	<!-- This paragraph has an id to allow for it to be linked to the dropdown menu above -->
+	<p3 id="p3">
+		The Secure Hashing Algorithm (SHA-256) is the safest way to encrypt something in the world at the moment as no computers are currently able to crack it. There are two types that it uses:
+	</p3>
+	<br>
+	<!-- An image is embedded in the webpage to expand on the ideas above -->
+	<img width="400" height="300" src="SHA-256.png">
+
+	<!-- Unordered list element is used here to give more info about the system -->
+	<ul>
+		Symmetric Key Encryption
+			<li>
+				The same key is used for encrypting and decrypting
+			</li>
+			<li>
+				Key has to be known between devices communicating
+			</li>
+			<br>
+		Public Key Encryption
+			<li>
+				A public key for encrypting data but a private key for decrypting it
+			</li>
+			<li>
+				Is fully reliant on authentication (hash-code verification)
+			</li>
+	</ul>
+<!-- hr element is used to make the breaks more fancy and look better -->
+<hr>
+<br>
+
+	<!-- My citations that are anchored to create hyperlinks -->
+	<p>
+		Image Citations: <br> <a href="https://infosecwriteups.com/breaking-down-sha-256-algorithm-2ce61d86f7a3"> https://infosecwriteups.com/breaking-down-sha-256-algorithm-2ce61d86f7a3, </a> <br> <a href="https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher"> https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher, </a> <br> <a href="https://en.wikipedia.org/wiki/Caesar_cipher"> https://en.wikipedia.org/wiki/Caesar_cipher </a>
+	</p>
+
+</body>
+</html>

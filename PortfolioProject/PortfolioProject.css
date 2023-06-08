@@ -1,0 +1,127 @@
+/* Lets there be a border around the table data and for the text to be in the middle */
+td {
+		border: solid;
+		text-align: center;
+	}
+
+input {
+	color: skyblue;
+	background: seagreen;
+}
+
+/* Makes the embedded content appear in the middle of the page */
+embed {
+	align : center;
+}
+
+th {
+	color: black;
+	align: left;
+}
+
+/* Makes the h1 element be in the center as well as connecting it to a keyframes and saying it will last for 30s and be infinite */
+h1 {
+	text-align: center;
+	animation-name: title;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* Makes the text be on the left side and makes the font arial to make it very simple and easier to understand */
+.w {
+	text-align: left;
+	font-family: arial;
+
+}
+
+/* This keyframes is linked to the animation title and causes the content to change color */
+@keyframes title {
+  0%   {color:deepskyblue; left:0px; top:0px;}
+  25%  {color:violet; left:0px; top:0px;}
+  50%  {color:lightgreen; left:0px; top:0px;}
+  75%  {color:darkgreen; left:0px; top:0px;}
+  100% {color:deepskyblue; left:0px; top:0px;}
+}
+
+/* Is linked to the same keyframes above but the duration is shorter */
+.object1 {
+	text-align: center;
+	font-size: 30px;
+	animation-name: title;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+
+.dropdown {
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Makes the dropdown-content class not appear at first */
+.dropdown-content {
+	display: none;
+	font-size: 20px;
+}
+
+/* Makes it so that when the dropdown class is hovered over, the dropdown-content class appears */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Makes the dropdown-content2 class not appear at first */
+.dropdown-content2 {
+	display: none;
+	font-size: 20px;
+}
+
+/* Makes it so that when the dropdown2 class is hovered over, the dropdown-content2 class appears */
+.dropdown2:hover .dropdown-content2 {
+	display: block;
+}
+
+/* Makes the dropdown-content3 class not appear at first */
+.dropdown-content3 {
+	display: none;
+	font-size: 20px;
+}
+
+/* Makes it so that when the dropdown-content2 class is hovered over, the dropdown-content3 class appears */
+.dropdown-content2:hover .dropdown-content3 {
+	display: block;
+}
+
+/* links this class to the keyframes money and gives it a relative position to make it work better */
+/* Sets the animation to loop every 5 seconds */
+.perfect {
+	animation-name: money;
+	position: relative;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+/* Changes the color of the content as well as changing the position so that it moves around and stand out */
+@keyframes money {
+  0%   {color:deepskyblue; left:100px; top:100px;}
+  25%  {color:violet; left:100px; top:0px;}
+  50%  {color:lightgreen; left:-100px; top:0px;}
+  75%  {color:darkgreen; left:-100px; top:100px;}
+  100% {color:deepskyblue; left:100px; top:100px;}
+}
+
+.quiz {
+	text-align: center;
+}
+
+a {
+	align-content: right;
+}

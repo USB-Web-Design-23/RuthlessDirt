@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<!-- Metadata for the page as well as a link to a css file and the title for the page -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="PortfolioProject.css">
+	<title>Portfolio Project</title>
+</head>
+
+
+<body>
+
+	<h1>
+		Wilson's Web Design Project
+	</h1>
+
+	<h2>
+		Here is the timeline of my work over the semester. Click on any of them to view the actual page.
+	</h2>
+
+	<!-- Table is used to help format the content and make it look very clean and organized. -->
+	<table> 
+		<tr>
+			<!-- Table headers are used to differentiate this content from the other parts in the table -->
+			<th>
+				January
+			</th>
+			<th>
+				February
+			</th>
+			<th>
+				February
+			</th>
+			<th>
+				February
+			</th>
+		</tr>
+		<tr>
+			<td>
+				<!-- A button is used here so they can click on it and the actual webpage will appear - This one sends the onclick to Button1 in Javascript-->
+				<input type="button" name="RecurringDream" value="Recurring Dream" id="RD" onclick="Button1()">
+			</td>
+			<td>
+				<!-- Different buttons for each one so they can have their own calue and id as well as different onclicks so different things will occur when clicked - This one sends the onclick to Button2 in Javascript-->
+				<input type="button" name="AboutMe" value="About Me" id="AM" onclick="Button2()">
+			</td>
+			<td>
+				<!-- This one sends the onclick to Button3 in Javascript-->
+				<input type="button" name="FavoriteAnimal" value="Favorite Animal" id="FA" onclick="Button3()">
+			</td>
+			<td>
+				<!-- This one sends the onclick to Button4 in Javascript-->
+				<input type="button" name="EnvironmentalAction" value="Environmental Action" id="EA" onclick="Button4()">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- Divs are used here so I can make each of these contents look the same -->
+				<div class="w">
+				<!-- Explains about each of my projects -->
+				This was my first project using html. In it, I use just simple elements like p and h1 to explain a fake dream.
+				</div>
+			</td>
+			<td>
+				<div class="w">
+				In this project, I have learned how to use style to create different colors and fonts. I have also learned to make lists and how to link videos and images to my webpage.
+				</div>
+			</td>
+			<td>
+				<div class="w">
+				This was my first project where I linked css to an html file and then used that to change the styles of the webpage. In this, I also was able to use divs to help create different styles for different parts of the page. This was also where I learned how to create a table and to hyperlink a website. 
+				</div>
+			</td>
+			<td>
+				<div class="w">
+				This was the project where I demonstrated my newfound ability to create dropdown content so that when the user hovers over text, more text appears. To create this, I also had to use lots of divs.
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<!-- This is just the same format as above but I split it up into two different rows so that it looks better and more organized. -->
+			<th>
+				March
+			</th>
+			<th>
+				April
+			</th>
+			<th>
+				May
+			</th>
+			<th>
+				May
+			</th>
+		</tr>
+		<tr>
+			<td>
+				<!-- This one sends the onclick to Button5 in Javascript-->
+				<input type="button" name="CollectorsGuide" value="Collectors Guide" id="CG" onclick="Button5()">
+			</td>
+			<td>
+				<!-- This one sends the onclick to Button6 in Javascript-->
+				<input type="button" name="PNW" value="PNW Spring Guide" id="PNW" onclick="Button6()">
+			</td>
+			<td>
+				<!-- This one sends the onclick to Button7 in Javascript-->
+				<input type="button" name="BuzzfeedProject" value="Buzzfeed Project" id="BP" onclick="Button7()">
+			</td>
+			<td>
+				<!-- This one sends the onclick to Button8 in Javascript-->
+				<input type="button" name="Encryption" value="Encryption" id="E" onclick="Button8()">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- The explanations for each project again -->
+				<div class="w">
+				For this project, I learned to link different html files to each other so you could go from one to another. This meant that I had to use the anchor element a lot while also having to be very organized in how my files worked.
+				</div>
+			</td>
+			<td>
+				<div class="w">
+				This was my first project where I made animations that were a part of my webpage. I was able to do this using keyframes in css which let change the color of text as well as create a slideshow. This was also the first time used a dropdown bar to help navigate multiple webpages.
+			</td>
+			<td>
+				<div class="w">
+				This was the first project where I used JavaScript. Using it, I was able to create a quiz that is able to use your answers to give you a result. It was the first time that I used a form and lots of inputs to create the quiz while giving each question a designated point value. This was by far the most comprehensive and detailed project that I have created in Web Design.
+				</div>
+			</td>
+			<td>
+				<div class="w">
+				This was my last project where I summarized what we learned about encryption throughout the year. In it, I use relative links to different parts of the page to make it easier to navigate through the page.
+				</div>
+			</td>
+		</tr>
+
+		
+	</table>
+
+	<!-- Relative link is used here to make it easier to navigate to the FAQS and quiz sections of the page - linked to p1 id-->
+	<a href="#p1"> 
+		FAQs
+	</a>
+		<br>
+	<!-- Linked to p2 id -->
+	<a href="#p2"> 
+		Quiz
+	</a>
+
+	<!-- This is the div for the object that I created in Javascript - Can give it its own style-->
+	<div class="object1">
+		<!-- Id is used to link this paragraph to JS -->
+		<p id="object"> </p>
+	</div>
+	<!-- center element is used to easily make the embeded content appear in the middle of the page -->
+	<center>
+		<!-- This embeds the webpage that is clicked on above using JS -->
+		<embed id="response" height="800" width = "1200" src=""></embed>
+	</center>
+
+	<br>
+	<br>
+	<br>
+
+		<!-- The div here allows me to make a dropdown bar and the id is for the relative link to send the user here-->
+		<div class="dropdown2" id="p2">
+		Frequently Asked Questions
+
+		<!-- This div makes it easier for me to make it the content not appear at first -->
+		<div class="dropdown-content2">
+			Where do I click to see the individual webpages?
+		<!-- This div allows for this content to only appear when certain things happen -->
+		<div class="dropdown-content3">
+			Click on the green and blue buttons.
+		</div>
+		</div>
+		<br>
+		<!-- This div makes it easier for me to make it the content not appear at first -->
+		<div class="dropdown-content2">
+			How do I take the quiz?
+		<!-- This div allows for this content to only appear when certain things happen -->
+		<div class="dropdown-content3">
+			Hover over the the wording about the quiz and it will appear. Pick an answer for each question and then click the button to see your score.
+		</div>
+		</div>
+		<br>
+		<!-- This div makes it easier for me to make it the content not appear at first -->
+		<div class="dropdown-content2">
+			Do all links work in this webpage?
+		<!-- This div allows for this content to only appear when certain things happen -->
+		<div class="dropdown-content3">
+			All links that are clickable work and will send you to a different page.
+		</div>
+		</div>
+		<br>
+		<!-- This div makes it easier for me to make it the content not appear at first -->
+		<div class="dropdown-content2">
+			What is the "Important Website" in the Buzzfeed Project?
+		<!-- This div allows for this content to only appear when certain things happen -->
+		<div class="dropdown-content3">
+			You'll have to click to find out.
+		</div>
+		</div>
+		<br>
+		<!-- This div makes it easier for me to make it the content not appear at first -->
+		<div class="dropdown-content2">
+			Does the Buzzfeed Project actually download malware onto my computer?
+		<div class="dropdown-content3">
+		<!-- This div allows for this content to only appear when certain things happen -->
+			No. It is very safe to use ("this website is not liable for anything given to you from this page" - Wilson's lawyers)
+		</div>
+		<br>
+
+	</div>
+
+</div>
+	<!-- This div lets me use css to make you be able to hover over it and have something appear -->
+	<div class="dropdown">
+		<!-- p1 id is used to get the relative link to go here -->
+		<p1 id="p1"> Have you learned everything about this page? <br> Take this quiz to find out! </p1>
+	<!-- This div allows for the content to not appear at first -->
+	<div class="dropdown-content">
+
+		<!-- This is my first question in the quiz - I use a label to make this quesiton appear and be easy to understand-->
+		<label>Who did I go to the fair with?</label>
+		<br>
+		<!-- Radio element is used here so the reader can click on one and only one answer -->
+		<!-- Is given an id to link it to the label below (what shows up) as well as the JS -->
+		<input type="radio" name="q1" id="Rowan">
+		<label for="Rowan"> Rowan </label>
+		<br>
+		<input type="radio" name="q1" id="Jerry">
+		<label for="Jerry"> Jerry </label>
+		<br>
+		<input type="radio" name="q1" id="Jacob">
+		<label for="Jacob"> Jacob</label>
+		<br>
+		<input type="radio" name="q1" id="Considine">
+		<label for="Considine"> Mr. Considine </label>
+		<br>
+		<br>
+		<!-- This is my second question in the quiz -->
+		<label>What is my favorite sport?</label>
+		<br>
+		<input type="radio" name="q2" id="Golf">
+		<label for="Golf"> Golf </label>
+		<br>
+		<input type="radio" name="q2" id="Soccer">
+		<label for="Soccer"> Soccer </label>
+		<br>
+		<input type="radio" name="q2" id="Pickleball">
+		<label for="Pickleball"> Pickleball </label>
+		<br>
+		<input type="radio" name="q2" id="Baseball">
+		<label for="Baseball"> Baseball </label>
+		<br>
+		<br>
+
+		<!-- This is my third question in the quiz -->
+		<label>Who do red wolves eat?</label>
+		<br>
+		<input type="radio" name="q3" id="humans">
+		<label for="humans"> Humans </label>
+		<br>
+		<input type="radio" name="q3" id="insects">
+		<label for="insects"> Insects </label>
+		<br>
+		<input type="radio" name="q3" id="crabs">
+		<label for="crabs"> Crabs </label>
+		<br>
+		<input type="radio" name="q3" id="raccoons">
+		<label for="raccoons"> Raccoons </label>
+		<br>
+		<br>
+
+		<!-- This is my fourth question in the quiz -->
+		<label>How much could sea levels rise by 2050?</label>
+		<br>
+		<input type="radio" name="q4" id="2">
+		<label for="2"> 2 inches </label>
+		<br>
+		<input type="radio" name="q4" id="8">
+		<label for="8"> 8 inches </label>
+		<br>
+		<input type="radio" name="q4" id="3">
+		<label for="3"> 3 feet </label>
+		<br>
+		<input type="radio" name="q4" id="1">
+		<label for="1"> 1 foot </label>
+		<br>
+		<br>
+
+		<!-- This is my fifth question in the quiz -->
+		<label>How many majors has Roger Federer won (in singles)?</label>
+		<br>
+		<input type="radio" name="q5" id="15">
+		<label for="15"> 15 </label>
+		<br>
+		<input type="radio" name="q5" id="7">
+		<label for="7"> 7 </label>
+		<br>
+		<input type="radio" name="q5" id="32">
+		<label for="32"> 32 </label>
+		<br>
+		<input type="radio" name="q5" id="20">
+		<label for="20"> 20 </label>
+		<br>
+		<br>
+
+		<!-- This is my sixth question in the quiz -->
+		<label>How long has it been since Mt. Rainier erupted?</label>
+		<br>
+		<input type="radio" name="q6" id="23">
+		<label for="23"> 23 years </label>
+		<br>
+		<input type="radio" name="q6" id="150">
+		<label for="150"> 150 years </label>
+		<br>
+		<input type="radio" name="q6" id="1002">
+		<label for="1002"> 1002 years </label>
+		<br>
+		<input type="radio" name="q6" id="12541">
+		<label for="12541"> 12541 years </label>
+		<br>
+		<br>
+
+		<!-- This is my seventh question in the quiz -->
+		<label>What you got in the produce aisle that was connected to an ad?</label>
+		<br>
+		<input type="radio" name="q7" id="Avocados">
+		<label for="Avocados"> Avocados </label>
+		<br>
+		<input type="radio" name="q7" id="Onions">
+		<label for="Onions"> Onions </label>
+		<br>
+		<input type="radio" name="q7" id="Truffles">
+		<label for="Truffles"> Truffles </label>
+		<br>
+		<input type="radio" name="q7" id="Pears">
+		<label for="Pears"> Pears </label>
+		<br>
+		<br>
+
+		<!-- This is my eighth question in the quiz -->
+		<label>Using the caesar cipher, if I wanted to encrypt hello using a shift of 4, what would I get?</label>
+		<br>
+		<input type="radio" name="q8" id="B">
+		<label for="B"> bellt </label>
+		<br>
+		<input type="radio" name="q8" id="F">
+		<label for="F"> feyya </label>
+		<br>
+		<input type="radio" name="q8" id="L">
+		<label for="L"> lipps </label>
+		<br>
+		<input type="radio" name="q8" id="W">
+		<label for="W"> wiffu </label>
+		<br>
+		<br>
+
+		<!-- This is the submit button and is given an onlick function so I can activate the Javascript when clicked -->
+		<input type="button" name="submit button" value="Click here to see your score" onclick="quiz()">
+
+		<!-- This paragraph element is linked to the Javascript -->
+		<p id="response2"> </p>
+		<!-- This div is used so that it can make certain aspects occur on the content -->
+		<div class="perfect">
+			<!-- This p element is also linked to the Javascript -->
+			<p id="response3"> </p>
+		</div>
+
+	</div>
+<br>
+<br>
+
+	<br>
+	<br>
+	<br>
+</body>
+
+<!-- This defines this section to be javascript -->
+<script type="text/javascript">
+	
+	/* This is the function if Button1 is clicked */
+	function Button1() {
+			/* This links the a embed element with the id "response" to this code */
+			/*This accesses the RecurringDream.html file and displays it */
+			document.getElementById("response").src = "RecurringDream/RecurringDream.html"
+
+			/* This is an object created using const */
+			const page = {
+				/* Sets the site to "nothing" */
+  				site: "nothing"
+			};
+			/* Changes the site to say "my Recurring Dream Project" */
+			page.site ="my Recurring Dream Project";
+
+			/* displays this content in the in the p element with the id "object" */
+			document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+	}
+	/* This is the function if Button2 is clicked */
+	function Button2() {
+			/* This links the a embed element with the id "response" to this code */
+			/*This accesses the AboutMe.html file and displays it */
+			document.getElementById("response").src = "AboutMe/AboutMe.html"
+
+			/* This is an object created using const - Displayed every time as it changes for each button */
+			const page = {
+  				site: "nothing"
+			};
+			/* Changes the site to say "my About Me Project" */
+			page.site ="my About Me Project";
+
+			/* displays this content in the in the p element with the id "object" */
+			document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+			
+	}
+	/* This is the function if Button3 is clicked */
+	function Button3() {
+			/* This links the a embed element with the id "response" to this code */
+			/*This accesses the FavoriteAnimal.html file and displays it */
+			document.getElementById("response").src = "FavoriteAnimal/FavoriteAnimal.html"
+
+			/* This is an object created using const - Displayed every time as it changes for each button */
+			const page = {
+  				site: "nothing"
+			};
+			/* Changes the site to say "my Favorite Animal Project" */
+			page.site ="my Favorite Animal Project";
+
+			/* displays this content in the in the p element with the id "object" */
+			document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+			
+	}
+	/* This is the function if Button4 is clicked */
+	function Button4() {
+			/* This links the a embed element with the id "response" to this code */
+			/*This accesses the EnvironmentalAction.html file and displays it */
+			document.getElementById("response").src = "EnvironmentalAction/EnvironmentalAction.html"
+
+			/* This is an object created using const - Displayed every time as it changes for each button */
+			const page = {
+  				site: "nothing"
+			};
+			/* Changes the site to say "my Environmental Action Project" */
+			page.site ="my Environmental Action Project";
+
+			/* displays this content in the in the p element with the id "object" */
+			document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+			
+	}
+	/* This is the function if Button5 is clicked */
+	function Button5() {
+			/* This links the a embed element with the id "response" to this code */
+			/*This accesses the HomePage.html file and displays it */
+			document.getElementById("response").src = "CollectorsGuide/HomePage.html"
+
+			/* This is an object created using const - Displayed every time as it changes for each button */
+			const page = {
+  				site: "nothing"
+			};
+			/* Changes the site to say "my Collectors Guide Project" */
+			page.site ="my Collectors Guide Project";
+
+			/* displays this content in the in the p element with the id "object" */
+			document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+			
+	}
+	/* This is the function if Button6 is clicked */
+	function Button6() {
+			/* This links the a embed element with the id "response" to this code */
+			/*This accesses the PNWGuideHome.html file and displays it */
+			document.getElementById("response").src = "PNWSpringGuide/PNWGuideHome.html"
+
+			/* This is an object created using const - Displayed every time as it changes for each button */
+			const page = {
+  				site: "nothing"
+			};
+			/* Changes the site to say "my Pacific Northwest Guide Project" */
+			page.site ="my Pacific Northwest Guide Project";
+
+			/* displays this content in the in the p element with the id "object" */
+			document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+			
+	}
+	/* This is the function if Button7 is clicked */
+	function Button7() {
+			/* This links the a embed element with the id "response" to this code */
+			/*This accesses the BFHome.html file and displays it */
+			document.getElementById("response").src = "BuzzfeedProject/BFHome.html"
+
+			/* This is an object created using const - Displayed every time as it changes for each button */
+			const page = {
+  				site: "nothing"
+			};
+			/* Changes the site to say "my Buzzfeed Project" */
+			page.site ="my Buzzfeed Project";
+
+			/* displays this content in the in the p element with the id "object" */
+			document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+			
+	}
+	/* This is the function if Button8 is clicked */
+	function Button8() {
+			/* This links the a embed element with the id "response" to this code */
+			/*This accesses the Encryption.html file and displays it */
+			document.getElementById("response").src = "Encryption/Encryption.html"
+
+			/* This is an object created using const - Displayed every time as it changes for each button */
+			const page = {
+  				site: "nothing"
+			};
+			/* Changes the site to say "my Encryption Webpage" */
+			page.site ="my Encryption Webpage";
+
+			/* displays this content in the in the p element with the id "object" */
+			document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+			
+	}
+
+	/* This is an object created using const - Displayed every time as it changes for each button */
+	const page = {
+		/* Sets site to "nothing" when no buttons have been clicked */
+  		site: "nothing"
+	};
+	/* displays this content in the in the p element with the id "object" */
+	document.getElementById("object").innerHTML = "You chose " + page.site + "!!";
+
+	/* Creates a function for when the submit button is clicked (onclick quiz) */
+	function quiz() {
+
+	/* Creates a variable and sets it to 0 */
+	var correct = 0
+
+	/* Says that if the Golf input is checked add 1 the correct variable */
+	if (document.getElementById("Jerry").checked) {
+			correct = correct + 1;
+	}
+	/* Says that if the Jerry input is checked add 1 the correct variable */
+	if (document.getElementById("Golf").checked) {
+			correct = correct + 1;
+	}
+	/* Says that if the raccons input is checked add 1 the correct variable */
+	if (document.getElementById("raccoons").checked) {
+			correct = correct + 1;
+	}
+	/* Says that if the 1 input is checked add 1 the correct variable */
+	if (document.getElementById("1").checked) {
+			correct = correct + 1;
+	}
+	/* Says that if the 20 input is checked add 1 the correct variable */
+	if (document.getElementById("20").checked) {
+			correct = correct + 1;
+	}
+	/* Says that if the 150 input is checked add 1 the correct variable */
+	if (document.getElementById("150").checked) {
+			correct = correct + 1;
+	}
+	/* Says that if the Onions input is checked add 1 the correct variable */
+	if (document.getElementById("Onions").checked) {
+			correct = correct + 1;
+	}
+	/* Says that if the L input is checked add 1 the correct variable */
+	if (document.getElementById("L").checked) {
+			correct = correct + 1;
+	}
+
+	/* If the correct variable is less then 8, this content appears in the id=response2 p element */
+	if (correct < 8) {
+	document.getElementById("response2").innerHTML = "You got " + correct + "/8 correct!!!"
+	}
+
+	/* If the correct variable equals 8, content is shown for response 3 while nothing is shown for response2 - Is done so certain things can happen if a perfect score is completed */
+	if (correct == 8) {
+		document.getElementById("response3").innerHTML = "Perfect Score!! You know everything!!"
+		document.getElementById("response2").innerHTML = ""
+	}
+	}
+
+
+
+</script>
+
+
+
+
+
+
+
+</html>

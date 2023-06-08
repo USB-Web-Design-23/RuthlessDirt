@@ -1,0 +1,42 @@
+/* gives the h1 element different styles like a new font and color to make it stick out*/
+h1 {
+	font-family: Comic Sans MS; 
+	font-size: 54px; 
+	text-align: center; 
+	color: royalblue;"
+}
+
+p {
+	color: palevioletred;
+	font-size: 24px;
+}
+
+ul {
+	color: steelblue;
+	font-size: 20px;
+}
+
+/* This style creates a clear border for the table to make it stick out */
+table, th, td {
+	border: 1px solid gray;
+}
+
+/* This helps make my images/videos part stand out with the interesting font choices */
+.Funky {
+	background-color: aliceblue;
+	font-family: fantasy;
+	font-size: 40px;
+	text-align: center;
+}
+
+/* Makes the link to the wikipedia page stand out compared to the table */
+.happy{
+	background-color: seagreen;
+	color: black;
+	font-size: 20px;
+}
+
+.sad{
+	color: burlywood;
+	background-color: teal;
+

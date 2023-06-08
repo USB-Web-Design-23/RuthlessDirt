@@ -1,0 +1,28 @@
+/* Dropdown class is used here to give certain styles to this part */
+.dropdown {
+	color: seagreen;
+	font-size: 40px;
+	text-align: center;
+	background-color: lightblue;
+	transition: font-size 3s;
+}
+
+
+/* Dropdown-content class has styles that make it not show up at first */
+.dropdown-content {
+	display: none;
+	font-size: 25px;
+}
+
+/* Makes it so that when the dropdown class is hovered over, the dropdown-content info shows up */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover {
+	font-size: 50px;
+}
+
+h1 {
+	text-align: center;
+}

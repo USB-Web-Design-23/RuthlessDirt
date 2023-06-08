@@ -1,0 +1,31 @@
+body {
+	background-color: wheat;
+}
+
+/* Gives all dropdown classes certain characteristics to make them stand out and want to be clicked on */
+.dropdown {
+	background-color: wheat;
+	color: red;
+	font-weight: 5;
+	font-size: 25px;
+}
+
+/* Makes all the content inside of this class not appear */
+.dropdown-content {
+	display: none;
+	background-color: none;
+	color: none;
+}
+
+/* Makes it so that the dropdown-content appears when the dropdown class is hovered over */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.photo{;
+	;
+}
+
+/* Makes the text only cover half of the page which makes it easier to read and understand */
+.text { margin-right: 50%;
+}

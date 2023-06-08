@@ -1,0 +1,109 @@
+/* Creates a background image by linking an image in the same folder through the background-mahe attribute */
+body {
+	background-image: url("PNW.jpeg")
+}
+
+/* Gives the h1 element different styles while also giving it animation styles to help make it change */
+/* animation-name is used to link it keyframes while the duration and iteration count say how long each cycle will go for and the amount of cycles. */
+h1 {
+	text-align: center;
+	size: 50px;
+	color: red;
+	animation-name: title;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+/* keyframes allows for the image to change at certain points of time - here it changes 4 times when the cycle has occured for 25% of the time */
+@keyframes title {
+  0%   {color:blue; left:0px; top:0px;}
+  25%  {color:red; left:0px; top:0px;}
+  50%  {color:violet; left:0px; top:0px;}
+  75%  {color:green; left:0px; top:0px;}
+  100% {color:blue; left:0px; top:0px;}
+}
+
+/* gives the dropdown class different styles */
+.dropdown {
+	color: seagreen;
+	font-size: 40px;
+	text-align: center;
+	background-color: lightblue;
+}
+
+/* makes the text in the dropdown class not appear when webpage is opened */
+.dropdown-content {
+	display: none;
+	font-size: 25px;
+}
+
+/* makes it so that when the user hovers their mouse over the info inside the dropdown class, the text from the dropdown-content class appears */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+p {
+	color: green;
+	background-color: seashell;
+}
+
+/* Uses the h2 element to create specific animations with that will last for 30 seconds each cycle and occur forever */
+h2 {
+	animation-name: image;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	background-size: 100%;
+}
+
+/* keyframes is used to create a slideshow that cycles through different images - 0% and 24% are both the same image to make the transitions neater and simpler */
+@keyframes image {
+  0%  {background-image: url("Olympic1.webp")}
+  24% {background-image: url("Olympic1.webp")}
+  25% {background-image: url("Olympic2.jpeg")}
+  49% {background-image: url("Olympic2.jpeg")}
+  50% {background-image: url("Olympic3.jpeg")}
+  74% {background-image: url("Olympic3.jpeg")}
+  75% {background-image: url("Olympic4.jpeg")}
+  99% {background-image: url("Olympic4.jpeg")}
+  100% {background-image: url("Olympic1.webp")}
+}
+
+/* Uses the h3 element to create specific animations with that will last for 30 seconds each cycle and occur forever */
+h3 {
+	animation-name: image2;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	background-size: 100%;
+}
+
+/* keyframes is used to create a slideshow that cycles through different images - 0% and 24% are both the same image to make the transitions neater and simpler */
+@keyframes image2 {
+  0%  {background-image: url("Rainier1.png")}
+  24% {background-image: url("Rainier1.png")}
+  25% {background-image: url("Rainier2.jpeg")}
+  49% {background-image: url("Rainier2.jpeg")}
+  50% {background-image: url("Rainier3.jpeg")}
+  74% {background-image: url("Rainier3.jpeg")}
+  75% {background-image: url("Rainier4.jpg")}
+  99% {background-image: url("Rainier4.jpg")}
+  100% {background-image: url("Rainier1.png")}
+}
+
+/* Uses the h4 element to create specific animations with that will last for 30 seconds each cycle and occur forever */
+h4 {
+	animation-name: image3;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	background-size: 100%;
+}
+
+/* keyframes is used to create a slideshow that cycles through different images - 0% and 33% are both the same image to make the transitions neater and simpler */
+@keyframes image3 {
+  0%  {background-image: url("Mariners1.jpeg")}
+  33% {background-image: url("Mariners1.jpeg")}
+  34% {background-image: url("Mariners2.jpeg")}
+  66% {background-image: url("Mariners2.jpeg")}
+  67% {background-image: url("Mariners3.jpeg")}
+  99% {background-image: url("Mariners3.jpeg")}
+  100% {background-image: url("Mariners1.jpeg")}
+ }
